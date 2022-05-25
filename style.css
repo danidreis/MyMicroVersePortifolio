@@ -2,8 +2,7 @@ h1 {
   width: 327px;
   height: 150px;
   font-style: normal;
-  font-family: 'Times';
-
+  font-family: 'Serrif';
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -12,13 +11,12 @@ h1 {
 
 h3 {
   width: 117px;
-  height: 24px;  
+  height: 24px;
   font-family: 'Arial';
   font-style: normal;
-
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;  
+  line-height: 24px;
   color: #7f8cff;
 }
 
@@ -27,7 +25,6 @@ p {
   height: 146px;
   font-family: 'Arial';
   font-style: normal;
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -43,7 +40,6 @@ section {
   background-image: url("Images/header-shapes\ mobile.png");
   background-size: cover;
   height: 718px;
-
   width: 375px;
   margin: 0 auto;
 }
