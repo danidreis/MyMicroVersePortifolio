@@ -6,9 +6,9 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
-}
+  color: #172b4d;
 
+}
 h3 {
   width: 117px;
   height: 24px;  
@@ -17,9 +17,9 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;  
-  color: #7F8CFF;
-}
+  color: #7f8Cff;
 
+}
 p {
   width: 327px;
   height: 146px;
@@ -29,41 +29,41 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-}
 
+}
 img {
   padding: 5px 10px;
-}
 
+}
 section {
-  background: #FFFFFF;
+  background: #ffffff;
   background-image: url("Images/header-shapes\ mobile.png");
   background-size: cover;
   height: 718px;
   width: 375px;
   margin: 0 auto;
-}
 
+}
 nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
 
+}
 .social.div { 
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
-    flex-direction: column;
-}
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  flex-direction: column;
 
-.intro.div{
+}
+.intro.div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
 
-.button:hover{
+}
+.button:hover {
   background-color: lightcyan;
-}
 
+}
