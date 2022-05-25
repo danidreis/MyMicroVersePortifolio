@@ -1,14 +1,4 @@
 
-section {
-  background: #FFFFFF;
-  background-image: url("Images/header-shapes\ mobile.png");
-  background-size: cover;
-  height: 718px;
-  width: 375px;
-  left: 0px;
-  top: 0px;
-}
-
 h1 {
   width: 327px;
   height: 150px;
@@ -41,19 +31,39 @@ p {
   color: #344563;
 }
 
-div { 
+img {
+  padding: 5px 10px;
+}
+
+section {
+  background: #FFFFFF;
+  background-image: url("Images/header-shapes\ mobile.png");
+  background-size: cover;
+  height: 718px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social.div { 
     display: flex;
     align-items: center;
-    justify-items: center;
-    flex-direction: row;
+    justify-items: flex-start;
+    flex-direction: column;
 }
 
-body {
+.intro.div{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
-img {
-    padding: 5px 10px;
+.button:hover{
+  background-color: lightcyan;
 }
+
