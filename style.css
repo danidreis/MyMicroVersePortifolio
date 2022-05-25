@@ -1,0 +1,59 @@
+
+section {
+  background: #FFFFFF;
+  background-image: url("Images/header-shapes\ mobile.png");
+  background-size: cover;
+  height: 718px;
+  width: 375px;
+  left: 0px;
+  top: 0px;
+}
+
+h1 {
+  width: 327px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+}
+
+h3 {
+  width: 117px;
+  height: 24px;  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #7F8CFF;
+}
+
+p {
+  width: 327px;
+  height: 146px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+div { 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+    padding: 5px 10px;
+}
