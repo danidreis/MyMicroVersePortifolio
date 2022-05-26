@@ -70,7 +70,7 @@ ul.social {
   justify-content: flex-start;
 }
 
-section.worksec {
+div.worksec {
   display: grid;
   grid-template-columns: 1fr 375px 1fr;
 }
