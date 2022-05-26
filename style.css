@@ -1,0 +1,65 @@
+h1 {
+  width: 327px;
+  height: 150px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+h3 {
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+p {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+img {
+  padding: 5px 10px;
+}
+
+section {
+  background: #fff;
+  background-image: url("Images/header-shapes\ mobile.png");
+  background-size: cover;
+  height: 718px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro.div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button:hover {
+  background-color: lightcyan;
+}
+
+ul li {
+  display: inline;
+}
