@@ -28,3 +28,19 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@danidreis ](https://github.com/danidreis)
 - Twitter: [@DevDanielaReis](https://twitter.com/DevDanielaReis)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniela-reis-469a4a23b/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse pairing program
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

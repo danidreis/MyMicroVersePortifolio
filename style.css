@@ -44,16 +44,9 @@ section {
   margin: 0 auto;
 }
 
-nav {
+header {
   display: flex;
   align-items: center;
-  flex-direction: column;
-}
-
-.social.div {
-  display: flex;
-  align-items: center;
-  justify-items: flex-start;
   flex-direction: column;
 }
 
@@ -65,4 +58,8 @@ nav {
 
 .button:hover {
   background-color: lightcyan;
+}
+
+ul li {
+   display: inline;
 }
