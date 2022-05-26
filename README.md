@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Daniela's MicroVerse Portifolio
 
 > This is a Portfolio developed through the MicroVerse journey!
 
