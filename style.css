@@ -70,16 +70,16 @@ ul.social {
   justify-content: flex-start;
 }
 
-div.worksec {
+section.worksec {
   display: grid;
   grid-template-columns: 1fr 375px 1fr;
 }
 
-header.work {
+div.work {
   padding: 60px 0 0 0;
 }
 
-article.work {
+section.work {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
@@ -91,11 +91,11 @@ article.work {
   align-items: flex-start;
 }
 
-article.AboutMe {
+section.AboutMe {
   grid-column-start: 2;
 }
 
-h1.work {
+h2.work {
   width: 327px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
@@ -108,40 +108,6 @@ h1.work {
 img.work {
   width: 395px;
   height: 290px;
-}
-
-ul.worklist {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-li.card-title {
-  width: 55px;
-  height: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  padding: 0 10px;
-}
-
-li.work {
-  width: 98px;
-  height: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  padding: 0 10px;
-}
-
-li.counter {
-  padding: 0 10px;
 }
 
 p.work {
@@ -178,8 +144,8 @@ li.languages {
   margin: 5px;
 }
 
-p.worksee {
-  width: 150px;
+.worksee {
+  width: 200px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -197,7 +163,7 @@ header.AboutMe {
   padding: 60px 0 0 0;
 }
 
-h1.AboutMe {
+h2.AboutMe {
   padding: 100px 0 0 0;
   width: 327px;
   font-style: normal;
@@ -219,7 +185,7 @@ p.AboutMe {
   color: #344563;
 }
 
-ul.AboutMeLang {
+.AboutMeLang {
   display: flex;
   padding: 0;
   justify-content: flex-start;
