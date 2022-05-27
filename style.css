@@ -1,4 +1,4 @@
-body{
+body {
   background: #dddcdc;
 }
 
@@ -54,7 +54,7 @@ section.Introduction {
   background-size: cover;
   height: 618px;
   width: 295px;
-  border: 0px solid #dfe1e6;
+  border: 0 solid #dfe1e6;
   padding: 16px;
   grid-column-start: 2;
   border-bottom-left-radius: 50px;
@@ -64,7 +64,7 @@ header.Toolbar {
   background: #fff;
   width: 295px;
   margin: 0 auto;
-  border: 0px solid #dfe1e6;
+  border: 0 solid #dfe1e6;
   padding: 16px;
   grid-column-start: 2;
 }
@@ -110,7 +110,7 @@ h2.work {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 img.work {
@@ -128,11 +128,7 @@ section.work {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #ffffff;
-}
-
-section.AboutMe {
-  grid-column-start: 2;
+  background-color: #fff;
 }
 
 p.work {
@@ -167,7 +163,7 @@ li.languages {
 }
 
 .worksee:hover {
-  background-color:lightgoldenrodyellow;
+  background-color: lightgoldenrodyellow;
 }
 
 .worksee:focus {
@@ -179,6 +175,7 @@ header.AboutMe {
 }
 
 section.AboutMe {
+  grid-column-start: 2;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
@@ -188,7 +185,7 @@ section.AboutMe {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 h2.AboutMe {
@@ -227,8 +224,5 @@ p.AboutMe {
 
 .AboutMeButton:hover {
   background-color: lightgrey;
-  Margin: 0 auto;
+  margin: 0 auto;
 }
-
-
-
