@@ -1,5 +1,14 @@
+body{
+  background: #dddcdc;
+}
+
+section.firstsection {
+  display: grid;
+  grid-template-columns: 1fr 327px 1fr;
+}
+
 h1.intro {
-  width: 327px;
+  width: 295px;
   height: 150px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
@@ -21,7 +30,7 @@ h3 {
 }
 
 p.intro {
-  width: 327px;
+  width: 295px;
   height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -31,33 +40,47 @@ p.intro {
   color: #344563;
 }
 
-img.button {
+img.socialbutton {
   padding: 5px 10px;
+}
+
+.socialbutton:hover {
+  background-color: lightgoldenrodyellow;
 }
 
 section.Introduction {
   background: #fff;
   background-image: url("Images/header-shapes\ mobile.png");
   background-size: cover;
-  height: 718px;
-  width: 375px;
-  margin: 0 auto;
+  height: 618px;
+  width: 295px;
+  border: 0px solid #dfe1e6;
+  padding: 16px;
+  grid-column-start: 2;
+  border-bottom-left-radius: 50px;
 }
 
 header.Toolbar {
+  background: #fff;
+  width: 295px;
+  margin: 0 auto;
+  border: 0px solid #dfe1e6;
+  padding: 16px;
+  grid-column-start: 2;
+}
+
+nav {
+  padding: 16px 0;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 div.intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.button:hover {
-  background-color: lightcyan;
 }
 
 ul {
@@ -72,42 +95,44 @@ ul.social {
 
 section.worksec {
   display: grid;
-  grid-template-columns: 1fr 375px 1fr;
+  grid-template-columns: 1fr 327px 1fr;
 }
 
 div.work {
-  padding: 60px 0 0 0;
-}
-
-section.work {
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding: 16px;
-  gap: 12px;
-  margin: 40px auto;
-  grid-column-start: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-section.AboutMe {
-  grid-column-start: 2;
+  margin: 10px 0 0 0;
 }
 
 h2.work {
-  width: 327px;
+  width: 295px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin: 10px 0px;
 }
 
 img.work {
-  width: 395px;
-  height: 290px;
+  width: 295px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+section.work {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px auto;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+
+section.AboutMe {
+  grid-column-start: 2;
 }
 
 p.work {
@@ -123,49 +148,52 @@ p.work {
 
 ul.languages {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  padding: 0;
+  justify-content: flex-start;
 }
 
 li.languages {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  padding: 4px 12px;
-  width: 65px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 10px;
-  margin: 5px;
+  padding: 0 5px;
+  margin: 0;
 }
 
 .worksee {
-  width: 200px;
-  height: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  border: 3px solid #dfe1e6;
-  border-radius: 16px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 47px;
+}
+
+.worksee:hover {
+  background-color:lightgoldenrodyellow;
+}
+
+.worksee:focus {
+  background-color: lightblue;
 }
 
 header.AboutMe {
   padding: 60px 0 0 0;
 }
 
+section.AboutMe {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px auto;
+  width: 295px;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+}
+
 h2.AboutMe {
   padding: 100px 0 0 0;
-  width: 327px;
+  width: 295px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -175,7 +203,7 @@ h2.AboutMe {
 }
 
 p.AboutMe {
-  width: 327px;
+  width: 295px;
   height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -193,6 +221,14 @@ p.AboutMe {
   align-items: flex-start;
 }
 
+.AboutMeButton {
+  width: 295px;
+}
+
 .AboutMeButton:hover {
   background-color: lightgrey;
+  Margin: 0 auto;
 }
+
+
+
