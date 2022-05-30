@@ -1,5 +1,14 @@
-h1 {
-  width: 327px;
+body {
+  background: #dddcdc;
+}
+
+section.firstsection {
+  display: grid;
+  grid-template-columns: 1fr 327px 1fr;
+}
+
+h1.intro {
+  width: 295px;
   height: 150px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
@@ -20,8 +29,8 @@ h3 {
   color: #7f8cff;
 }
 
-p {
-  width: 327px;
+p.intro {
+  width: 295px;
   height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -31,35 +40,188 @@ p {
   color: #344563;
 }
 
-img {
+img.socialbutton {
   padding: 5px 10px;
 }
 
-section {
+.socialbutton:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+section.Introduction {
   background: #fff;
   background-image: url("Images/header-shapes\ mobile.png");
   background-size: cover;
-  height: 718px;
-  width: 375px;
+  height: 618px;
+  width: 295px;
+  border: 0 solid #dfe1e6;
+  padding: 16px;
+  grid-column-start: 2;
+  border-bottom-left-radius: 50px;
+}
+
+header.Toolbar {
+  background: #fff;
+  width: 295px;
   margin: 0 auto;
+  border: 0 solid #dfe1e6;
+  padding: 16px;
+  grid-column-start: 2;
 }
 
-header {
+nav {
+  padding: 16px 0;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.intro.div {
+div.intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.button:hover {
-  background-color: lightcyan;
+ul {
+  list-style: none;
 }
 
-ul li {
-  display: inline;
+ul.social {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+section.worksec {
+  display: grid;
+  grid-template-columns: 1fr 327px 1fr;
+}
+
+div.work {
+  margin: 10px 0 0 0;
+}
+
+h2.work {
+  width: 295px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 10px 0;
+}
+
+img.work {
+  width: 295px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+section.work {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px auto;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+p.work {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+ul.languages {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+li.languages {
+  padding: 0 5px;
+  margin: 0;
+}
+
+.worksee {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 47px;
+}
+
+.worksee:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.worksee:focus {
+  background-color: lightblue;
+}
+
+header.AboutMe {
+  padding: 60px 0 0 0;
+}
+
+section.AboutMe {
+  grid-column-start: 2;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px auto;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+h2.AboutMe {
+  padding: 100px 0 0 0;
+  width: 295px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+p.AboutMe {
+  width: 295px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.AboutMeLang {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.AboutMeButton {
+  width: 295px;
+}
+
+.AboutMeButton:hover {
+  background-color: lightgrey;
+  margin: 0 auto;
 }
