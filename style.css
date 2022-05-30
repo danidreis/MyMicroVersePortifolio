@@ -143,9 +143,11 @@ p.work {
 }
 
 ul.languages {
-  display: flex;
+  /*display: flex;  
+  justify-content: flex-start;*/
   padding: 0;
-  justify-content: flex-start;
+  float: left;
+
 }
 
 li.languages {
