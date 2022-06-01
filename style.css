@@ -236,7 +236,7 @@ section.Contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:rgba(96, 112, 255, 1);
+  background-color: rgba(96, 112, 255, 1);
   background-image: url("Images/background-contatform.png");
 }
 
@@ -277,7 +277,7 @@ p.Contact-form {
 }
 
 #email-address {
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 4px;
   width: 295px;
@@ -292,7 +292,7 @@ p.Contact-form {
 }
 
 #message {
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 295px;
