@@ -225,3 +225,108 @@ p.AboutMe {
   background-color: lightgrey;
   margin: 0 auto;
 }
+
+section.Contact-form {
+  grid-column-start: 2;
+  border: 1px solid #dfe1e6;
+  border-top-left-radius: 50px;
+  padding: 16px;
+  margin: 10px auto;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(96, 112, 255, 1);
+  background-image: url("Images/background-contatform.png");
+}
+
+h2.Contact-form {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+p.Contact-form {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 315px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #fff;
+}
+
+#full-name {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  width: 295px;
+  height: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  margin: 10px;
+}
+
+#email-address {
+  background: #FFFFFF;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  width: 295px;
+  height: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  margin: 10px;
+}
+
+#message {
+  background: #FFFFFF;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 295px;
+  height: 170px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+  margin: 10px;
+}
+
+button.Contact-form {
+  margin-left: 25px;
+}
+
+#fs-frm-inputs {
+  border: none;
+}
+
+.ContactSubmit {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  padding: 0;
+  margin: 0 25px;
+  height: 47px;
+}
+
+.ContactSubmit:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.ContactSubmit:focus {
+  background-color: lightblue;
+}
