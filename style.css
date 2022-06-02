@@ -153,34 +153,32 @@ li.languages {
   margin: 0;
 }
 
-.worksee:hover {
-  left: 252px;
-  color: #fff;
-  top: calc(50% - 48px/2 + 57.5px);
-  background: #6070FF;
-  border-radius: 8px;
-}
-
-.worksee:focus {
-  background: #2230D2;
-  border-radius: 8px;
-  color: #fff;
-}
-
 .worksee {
   background-color: white;
-  color: #6070FF;
-  font-family: 'Poppins';
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  padding: 0;
   margin: 0;
   height: 47px;
   padding: 12px 16px;
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
+}
+
+.worksee:hover {
+  left: 252px;
+  color: #fff;
+  background: #6070ff;
+  border-radius: 8px;
+}
+
+.worksee:focus {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
 }
 
 header.AboutMe {
@@ -248,7 +246,7 @@ footer.Contact-form {
   grid-column-start: 2;
   border-top-left-radius: 50px;
   padding: 16px;
-  margin: 0 auto;;
+  margin: 0 auto;
   width: 295px;
   height: 729px;
   display: flex;
@@ -256,7 +254,6 @@ footer.Contact-form {
   align-items: center;
   background-color: rgba(96, 112, 255, 1);
   background-image: url("Images/background-contatform.png");
-  grid-column-start: 2;
 }
 
 h2.Contact-form {
@@ -335,30 +332,28 @@ button.Contact-form {
 
 .ContactSubmit {
   background-color: white;
-  color: #6070FF;
-  font-family: 'Poppins';
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  padding: 0;
   margin: 0 25px;
   height: 47px;
   padding: 12px 16px;
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
 .ContactSubmit:hover {
   left: 252px;
   color: #fff;
-  top: calc(50% - 48px/2 + 57.5px);
-  background: #6070FF;
+  background: #6070ff;
   border-radius: 8px;
 }
 
 .ContactSubmit:focus {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
   color: #fff;
 }
