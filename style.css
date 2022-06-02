@@ -153,21 +153,34 @@ li.languages {
   margin: 0;
 }
 
-.worksee {
-  border-radius: 10px;
-  background-color: white;
-  border: none;
-  padding: 0;
-  margin: 0;
-  height: 47px;
-}
-
 .worksee:hover {
-  background-color: lightgoldenrodyellow;
+  left: 252px;
+  color: #fff;
+  top: calc(50% - 48px/2 + 57.5px);
+  background: #6070FF;
+  border-radius: 8px;
 }
 
 .worksee:focus {
-  background-color: lightblue;
+  background: #2230D2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.worksee {
+  background-color: white;
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  height: 47px;
+  padding: 12px 16px;
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
 }
 
 header.AboutMe {
@@ -177,7 +190,7 @@ header.AboutMe {
 section.AboutMe {
   grid-column-start: 2;
   border: 1px solid #dfe1e6;
-  border-radius: 16px;
+  border-top-right-radius: 60px;
   padding: 16px;
   margin: 10px auto;
   width: 295px;
@@ -227,17 +240,23 @@ p.AboutMe {
 }
 
 section.Contact-form {
+  display: grid;
+  grid-template-columns: 1fr 327px 1fr;
+}
+
+footer.Contact-form {
   grid-column-start: 2;
-  border: 1px solid #dfe1e6;
   border-top-left-radius: 50px;
   padding: 16px;
-  margin: 10px auto;
+  margin: 0 auto;;
   width: 295px;
+  height: 729px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(96, 112, 255, 1);
   background-image: url("Images/background-contatform.png");
+  grid-column-start: 2;
 }
 
 h2.Contact-form {
@@ -315,18 +334,36 @@ button.Contact-form {
 }
 
 .ContactSubmit {
-  border-radius: 10px;
   background-color: white;
-  border: none;
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   padding: 0;
   margin: 0 25px;
   height: 47px;
+  padding: 12px 16px;
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
 }
 
 .ContactSubmit:hover {
-  background-color: lightgoldenrodyellow;
+  left: 252px;
+  color: #fff;
+  top: calc(50% - 48px/2 + 57.5px);
+  background: #6070FF;
+  border-radius: 8px;
 }
 
 .ContactSubmit:focus {
-  background-color: lightblue;
+  background: #2230D2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+img.Contact-form {
+  margin-top: 35px;
+  margin-bottom: 0;
 }
